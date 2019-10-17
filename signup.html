@@ -1,0 +1,25 @@
+<html>
+<body background="1.jpg">
+  <center>
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+
+    <p><b>Email</b>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required></p>
+
+    <p><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required></p>
+
+    <p><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required></p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn" onclick="alert('bye don')">Cancel</button>
+      <button type="submit" class="signupbtn" onclick="alert('Welcome ' + document.getElementById('email').value)">Sign Up</button>
+    </div>
+  </div>
+</form>
+</center>
+</body>
+</html>
